@@ -1,0 +1,72 @@
+body {
+    background: #2193b0;
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);
+    background: linear-gradient(to right, #6dd5ed, #2193b0); 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    background: url(../IMG/logo2.png) no-repeat 100% 100%;
+    background-size: contain;
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+
+
+.barra {
+    background-color: #ffffff; /* Color de fondo */
+    width: 1200px; /* Ancho de la barra */
+    height: 50px; /* Alto de la barra */
+    display: flex; /* Para alinear los elementos en línea */
+    align-items: center; /* Centrar verticalmente */
+    margin-left: auto; /* Mover la barra a la derecha */
+}
+
+.barra a {
+    color: rgb(0, 0, 0); /* Color del texto */
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none; /* Cambiar de double a none */
+    flex-grow: 1; /* Para que cada enlace ocupe el mismo espacio */
+    font-family: "Protest Strike", sans-serif; /* Usar la fuente Protest Strike */
+    font-weight: 400; /* Grosor de la letra */
+}
+
+.barra a:hover {
+    color: #efdc34; /* Cambia el color de la letra al pasar el mouse */
+}
+
+#inicio {
+    background: #f9f9f9; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 1px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+#noticias {
+    background: #f9f9f9; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+#beneficios {
+    background: #f9f9f9; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+#conclucion {
+    background: #f9f9f9; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
